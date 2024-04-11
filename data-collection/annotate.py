@@ -1,7 +1,7 @@
 import os
 from ultralytics import YOLO
 
-MODEL_PATH = "../models/obstacle_v3_320.pt"
+MODEL_PATH = "../models/obstacle_v4_320.pt"
 IMAGES_PATH = "capture"
 
 model = YOLO(MODEL_PATH)
