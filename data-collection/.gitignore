@@ -1,7 +1,8 @@
 /labels/*.txt
 /capture/*.jpg
 /capture/*.mp4
-runs
+/runs/
+/tests/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

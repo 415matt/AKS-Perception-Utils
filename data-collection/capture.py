@@ -36,7 +36,7 @@ def create_capture_folder(folder_name):
 
 def get_max_image_index(folder_name):
     # Get the maximum image index from the capture folder
-    existing_images = [int(file.split('.')[0]) for file in os.listdir(folder_name) if file.endswith('.jpg')]
+    existing_images = [int(file.split('.')[0]) for file in os.listdir(folder_name) if (file.endswith('.jpg') or file.endswith('.mp4'))]
     return max(existing_images) if existing_images else 0
 
 if __name__ == '__main__':
