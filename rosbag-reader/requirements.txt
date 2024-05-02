@@ -1,0 +1,4 @@
+tqdm==4.66.1
+numpy
+mcap_ros2
+cv2

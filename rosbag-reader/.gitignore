@@ -1,0 +1,5 @@
+/output/*.jpg
+/output/*.avi
+/mcap_file/*.mcap
+/mcap_file/*.yaml
+/mcap_file/*.yml
