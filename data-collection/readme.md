@@ -26,4 +26,5 @@ python capture.py
 Attempts to label every image in the `capture/` directory with the model specified by `MODEL_PATH` in the code. These image annotations are placed in the `labels/` folder and can be uploaded to roboflow along with the captured images. Using previous detection models to train new ones saves the time of manually annotating all collected images by hand.
 ```bash
 python annotate.py
-``` 
+```
+> If you're on a mac, it may complain about too many files open at once. To fix, simply run `sudo ulimit -n 12288` to increase your file open limit before running annotate.py Then restart your terminal. If you still see the error, try restarting your machine for the changes to take effect.
